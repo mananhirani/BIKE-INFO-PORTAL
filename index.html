@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Information Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <header class="header-gradient text-black p-6 shadow-lg rounded-b-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-4xl font-bold mb-4 md:mb-0">Bike Info Portal</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:text-gray-200 text-lg">Home</a></li>
+                    <li><a href="#" class="hover:text-gray-200 text-lg">Bikes</a></li>
+                    <li><a href="#" class="hover:text-gray-200 text-lg">About</a></li>
+                    <li><a href="#" class="hover:text-gray-200 text-lg">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-8 flex-grow">
+        <h2 class="text-3xl font-bold text-center mb-10 text-gray-800">Explore Our Bike Collection</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+
+            <div class="bike-card bg-white rounded-xl shadow-lg overflow-hidden p-6 border border-gray-200">
+                <img src="honda.avif" alt="Honda CBR600RR" class="w-full h-48 object-cover rounded-md mb-4 shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-900 mb-2">Honda CBR600RR</h3>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Brand:</strong> Honda</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Model:</strong> CBR600RR</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">CC:</strong> 599cc</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Top Speed:</strong> 250 km/h</p>
+                <p class="text-gray-700 mb-4"><strong class="font-medium">Average:</strong> 18 km/l</p>
+                <button class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300">View Details</button>
+            </div>
+
+            <div class="bike-card bg-white rounded-xl shadow-lg overflow-hidden p-6 border border-gray-200">
+                <img src="kawa.webp" alt="Kawasaki Ninja 400" class="w-full h-48 object-cover rounded-md mb-4 shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-900 mb-2">Kawasaki Ninja 400</h3>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Brand:</strong> Kawasaki</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Model:</strong> Ninja 400</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">CC:</strong> 399cc</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Top Speed:</strong> 190 km/h</p>
+                <p class="text-gray-700 mb-4"><strong class="font-medium">Average:</strong> 25 km/l</p>
+                <button class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300">View Details</button>
+            </div>
+
+            <div class="bike-card bg-white rounded-xl shadow-lg overflow-hidden p-6 border border-gray-200">
+                <img src="yamaha.webp" alt="Yamaha YZF-R3" class="w-full h-48 object-cover rounded-md mb-4 shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-900 mb-2">Yamaha YZF-R3</h3>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Brand:</strong> Yamaha</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Model:</strong> YZF-R3</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">CC:</strong> 321cc</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Top Speed:</strong> 180 km/h</p>
+                <p class="text-gray-700 mb-4"><strong class="font-medium">Average:</strong> 28 km/l</p>
+                <button class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300">View Details</button>
+            </div>
+
+            <div class="bike-card bg-white rounded-xl shadow-lg overflow-hidden p-6 border border-gray-200">
+                <img src="ktm.avif" alt="KTM Duke 390" class="w-full h-48 object-cover rounded-md mb-4 shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-900 mb-2">KTM Duke 390</h3>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Brand:</strong> KTM</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Model:</strong> Duke 390</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">CC:</strong> 373cc</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Top Speed:</strong> 170 km/h</p>
+                <p class="text-gray-700 mb-4"><strong class="font-medium">Average:</strong> 22 km/l</p>
+                <button class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300">View Details</button>
+            </div>
+
+            <div class="bike-card bg-white rounded-xl shadow-lg overflow-hidden p-6 border border-gray-200">
+                <img src="suzuki.webp" alt="Suzuki GSX-R750" class="w-full h-48 object-cover rounded-md mb-4 shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-900 mb-2">Suzuki GSX-R750</h3>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Brand:</strong> Suzuki</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Model:</strong> GSX-R750</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">CC:</strong> 750cc</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Top Speed:</strong> 270 km/h</p>
+                <p class="text-gray-700 mb-4"><strong class="font-medium">Average:</strong> 17 km/l</p>
+                <button class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300">View Details</button>
+            </div>
+
+            <div class="bike-card bg-white rounded-xl shadow-lg overflow-hidden p-6 border border-gray-200">
+                <img src="bmw.jpg" alt="BMW S1000RR" class="w-full h-48 object-cover rounded-md mb-4 shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-900 mb-2">BMW S1000RR</h3>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Brand:</strong> BMW</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Model:</strong> S1000RR</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">CC:</strong> 999cc</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Top Speed:</strong> 303 km/h</p>
+                <p class="text-gray-700 mb-4"><strong class="font-medium">Average:</strong> 15 km/l</p>
+                <button class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300">View Details</button>
+            </div>
+
+            <div class="bike-card bg-white rounded-xl shadow-lg overflow-hidden p-6 border border-gray-200">
+                <img src="Panigale.png" alt="Ducati Panigale V4" class="w-full h-48 object-cover rounded-md mb-4 shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-900 mb-2">Ducati Panigale V4</h3>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Brand:</strong> Ducati</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Model:</strong> Panigale V4</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">CC:</strong> 1103cc</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Top Speed:</strong> 300+ km/h</p>
+                <p class="text-gray-700 mb-4"><strong class="font-medium">Average:</strong> 14 km/l</p>
+                <button class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300">View Details</button>
+            </div>
+
+            <div class="bike-card bg-white rounded-xl shadow-lg overflow-hidden p-6 border border-gray-200">
+                <img src="harley.jpg" alt="Harley-Davidson Iron 883" class="w-full h-48 object-cover rounded-md mb-4 shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-900 mb-2">Harley-Davidson Iron 883</h3>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Brand:</strong> Harley-Davidson</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Model:</strong> Iron 883</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">CC:</strong> 883cc</p>
+                <p class="text-gray-700 mb-1"><strong class="font-medium">Top Speed:</strong> 170 km/h</p>
+                <p class="text-gray-700 mb-4"><strong class="font-medium">Average:</strong> 20 km/l</p>
+                <button class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300">View Details</button>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer-gradient text-black p-6 mt-10 shadow-inner rounded-t-lg">
+        <div class="container mx-auto text-center">
+            <p>2025 Bike Info Portal</p>
+            <p class="text-sm mt-2">Designed with MANAN</p>
+        </div>
+    </footer>
+
+</body>
+</html>
